@@ -1,0 +1,78 @@
+.body {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+.header {
+  padding: 20px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__img {
+  width: 61px;
+  height: 61px;
+}
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+.header__link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+  text-decoration: none;
+}
+.home {
+  padding-top: 138px;
+  padding-bottom: 238px;
+}
+.home__row {
+  display: flex;
+  gap: 104px;
+  align-items: center;
+}
+.home__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 603px;
+  gap: 5px;
+}
+.home__title {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  margin: 0;
+}
+.home__text {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.home__btn {
+  padding: 15px 30px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  background-color: #5555ffcf;
+  color: #ffffff;
+  border: none;
+}
+.home__img {
+  width: 492px;
+  height: 328px;
+}
